@@ -1,3 +1,4 @@
 exclude_patterns:
   - "**/vendor/"
   - "**/*_test.go"
+  - "**/gawetest/"
