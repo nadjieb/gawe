@@ -7,3 +7,6 @@ Gawe is a Go library for processing background jobs using the Go channels as FIF
 ```sh
 go get -u github.com/nadjieb/gawe
 ```
+
+## License
+Released under the [Apache License 2.0](LICENSE)
