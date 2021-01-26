@@ -1,10 +1,12 @@
 # Gawe
 
 [![Build Status](https://github.com/nadjieb/gawe/workflows/Build/badge.svg)](https://github.com/nadjieb/gawe/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/nadjieb/gawe)](https://goreportcard.com/report/github.com/nadjieb/gawe)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c3c92fbf37c8e26281b4/maintainability)](https://codeclimate.com/github/nadjieb/gawe/maintainability)
 [![Codecov](https://codecov.io/gh/nadjieb/gawe/branch/master/graph/badge.svg)](https://codecov.io/gh/nadjieb/gawe)
 
 ## Description
-Gawe is a Go library for processing background jobs using the Go channels as FIFO queue to control the job execution and worker instantiation.
+Gawe is a Go library for processing background jobs using Go channels as FIFO queue to control job execution and worker instantiation.
 
 ## Installation
 ```sh
