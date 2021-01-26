@@ -22,7 +22,7 @@ jobs:
           go-version: ^${{ matrix.go }}
       - name: Check out code into the Go module directory
         uses: actions/checkout@v2
-      - run: go test ./...
+      - run: go test -v ./...
   
   coverage:
     name: Coverage
@@ -32,6 +32,6 @@ jobs:
         uses: actions/setup-go@v2
       - name: Check out code into the Go module directory
         uses: actions/checkout@v2
-      - run: go test -coverprofile=coverage.txt ./...
+      - run: go test -v -coverprofile coverage.txt ./...
       - name: Codecov
         uses: codecov/codecov-action@v1
