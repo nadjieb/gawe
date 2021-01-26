@@ -8,12 +8,16 @@ import (
 	"time"
 )
 
+//go:generate mockery --name=IdentifiableJob --structname=IdentifiableJob --filename=identifiable_job.go --output=gawetest --outpkg=gawetest
+
 // IdentifiableJob defines the interface a job must have to be identifiable
 type IdentifiableJob interface {
 	JobID() string
 	JobType() string
 	Tags() []string
 }
+
+//go:generate mockery --name=Job --structname=Job --filename=job.go --output=gawetest --outpkg=gawetest
 
 // Job defines the interface a job must have
 type Job interface {
@@ -22,6 +26,8 @@ type Job interface {
 	Tags() []string
 	Exec(ctx context.Context) error
 }
+
+//go:generate mockery --name=Engineable --structname=Engine --filename=engine.go --output=gawetest --outpkg=gawetest
 
 // Engineable defines the interface a workers controller must have
 type Engineable interface {
