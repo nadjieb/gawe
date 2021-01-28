@@ -1,4 +1,4 @@
-# Gawe
+![Gawe](https://raw.githubusercontent.com/nadjieb/gawe/master/doc/images/gawe.png)
 
 [![Build Status](https://github.com/nadjieb/gawe/workflows/Build/badge.svg)](https://github.com/nadjieb/gawe/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/nadjieb/gawe)](https://goreportcard.com/report/github.com/nadjieb/gawe)
